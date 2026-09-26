@@ -1,0 +1,15 @@
+{
+  "name": "evaluation-certificates",
+  "version": "1.0.0",
+  "description": "Evaluation form with an admin panel and automatic certificates — zero dependencies.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "license": "UNLICENSED"
+}
